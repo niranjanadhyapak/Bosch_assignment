@@ -1,0 +1,83 @@
+# environments
+*.venv/
+venv/
+.bosch-eda/
+
+# YOLO dataset images
+yolo_dataset/images/
+yolo_dataset/labels/
+
+# BDD data folder
+data/
+EDA/data/
+
+# VSCode
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+model_outputs/
+*.jpg
+*.txt
+
+# ----------------------------------------
+# PYTHON ENVIRONMENTS
+# ----------------------------------------
+.venv/
+venv/
+env/
+*.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# DATA FILES
+# ----------------------------------------
+# BDD / YOLO datasets
+data/
+yolo_dataset/
+datasets/
+labels/
+images/
+
+# If you want yolo_dataset labels tracked, remove the line above and use:
+# yolo_dataset/images/
+# yolo_dataset/labels/*.txt
+
+# ----------------------------------------
+# MODEL WEIGHTS / CHECKPOINTS
+# ----------------------------------------
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+runs/
+output/
+model_outputs/
+
+# ----------------------------------------
+# EDITOR / OS FILES
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------------------
+# ARTIFACTS & LOGS
+# ----------------------------------------
+logs/
+*.log
+
+# ----------------------------------------
+# DOCKER / BUILD
+# ----------------------------------------
+build/
+dist/
+*.egg-info/
+# Large csv
+*.csv
