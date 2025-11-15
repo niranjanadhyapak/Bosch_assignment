@@ -1,0 +1,11 @@
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+seaborn>=0.12
+tqdm
+pyyaml
+torch>=2.0.0      # if you want torch in container; otherwise omit to keep small
+torchvision
+opencv-python
+ultralytics      # if you use YOLOv8
+fiftyone         # optional, heavy - include only if used

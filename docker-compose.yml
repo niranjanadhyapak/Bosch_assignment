@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  eda:
+    build: .
+    image: bosch-eda:latest
+    container_name: bosch_eda
+    volumes:
+      - .EDA/eda_outputs:/app/EDA/eda_outputs
+      - .EDA/data:/app/EDA/data:ro
+    stdin_open: false
+    tty: false
