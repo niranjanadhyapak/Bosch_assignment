@@ -81,3 +81,5 @@ dist/
 *.egg-info/
 # Large csv
 *.csv
+
+!requirements.txt
