@@ -28,5 +28,4 @@ RUN rm -rf .git \
            eda_outputs \
            yolo_dataset/images \
            yolo_dataset/labels
-
 CMD ["python", "run_eda.py"]
